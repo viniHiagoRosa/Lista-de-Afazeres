@@ -1,22 +1,39 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
 }
 
 body{
-    background: rgba(255, 123, 0, 0.678);
-    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 119, 255, 0.753);
 }
 
 h1{
     text-align: center;
+    background: white;
+    color: rgb(0, 132, 255);
+    margin: 0px;
+    font-size: 50px;
 }
 
 #incluir{
     text-align: center;
     padding: 20px;
+    margin: 20px;
+    background: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border:rgb(0, 132, 255) solid 2px
+
 }
 
 #incluir input{
     width: 200px;
+    margin: 10px;
+    transition: background-color 1000ms;
+}
+
+input:hover{
+    background: rgb(0, 247, 255)
 }
 
