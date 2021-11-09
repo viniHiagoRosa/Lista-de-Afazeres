@@ -10,7 +10,7 @@ body{
 h1{
     text-align: center;
     background: white;
-    color: rgb(0, 132, 255);
+    color: rgb(0, 119, 255, 0.753);
     margin: 0px;
     font-size: 50px;
 }
@@ -18,13 +18,13 @@ h1{
 #incluir{
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     background: white;
     height: 400px;
     width: 400px;
     border-radius: 10px;
-    border:rgb(0, 132, 255) solid 2px
-
+    border: rgb(0, 81, 255) solid 3px;
+    
 }
 
 #incluir input{
@@ -34,6 +34,6 @@ h1{
 }
 
 input:hover{
-    background: rgb(0, 247, 255)
+    background: rgba(0, 132, 255, 0.63)
 }
 
