@@ -4,7 +4,8 @@
 }
 
 body{
-    background: rgba(0, 119, 255, 0.753);
+    background-image: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 60, 128) );
+    font-family: sans-serif;
 }
 
 h1{
@@ -20,7 +21,7 @@ h1{
     padding: 20px;
     margin: 20px auto;
     background: white;
-    height: 400px;
+    height: auto;
     width: 400px;
     border-radius: 10px;
     border: rgb(0, 81, 255) solid 3px;
@@ -28,14 +29,18 @@ h1{
 }
 
 #incluir input{
-    width: 200px;
     margin: 10px;
     transition: background-color 1000ms;
 }
 
 input:hover{
-    background: rgba(0, 132, 255, 0.63)
+    background: rgba(0, 132, 255, 0.63);
+    
 }
 
-
-
+#lista{
+    margin: 5px;    
+    list-style: none;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
