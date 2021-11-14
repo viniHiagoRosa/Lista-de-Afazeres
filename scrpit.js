@@ -61,16 +61,12 @@ function excluir(elemento){
     _local_storage = JSON.stringify(objeto);
     localStorage.setItem('tarefas', _local_storage)
 
-    confirm('Você tem certeza?')
+    var confirmExcluir = confirm('Deseja realmente excluir?')
 
-    if(confirm === false){
-        
+    if(confirmExcluir === true){
+        document.getElementById('lista').remove()        
+    }else{
     }
 
-    document.getElementById('lista').remove();
 }
 
-
-
-
-    
