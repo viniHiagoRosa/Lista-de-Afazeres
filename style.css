@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-image: url('http://www.osmais.com/wallpapers/201409/montanhas-ensolaradas-wallpaper.jpg');
+    font-family: sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    background: white;
+    color: rgba(153, 0, 255, 0.993);
+    margin: 0px;
+    font-size: 50px;
+   
+}
+
+#incluir{
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    border: rgb(0, 81, 255) solid 3px;
+    
+    
+}
+
+#incluir input{
+    margin: 10px;
+    transition: background-color 1000ms;
+    
+}
+
+input:hover{
+    background: rgba(140, 0, 255, 0.377);
+    
+    
+}
+
+#lista{
+    margin: 2.5px 15px 2.5px ;
+    list-style: none;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.riscar{
+    text-decoration: line-through;
+}
+
