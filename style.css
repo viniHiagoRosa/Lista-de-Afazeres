@@ -15,6 +15,7 @@ h1{
     color: rgba(153, 0, 255, 0.993);
     margin: 0px;
     font-size: 50px;
+    
    
 }
 
@@ -54,5 +55,11 @@ input:hover{
 
 .riscar{
     text-decoration: line-through;
+    font-style: italic;
 }
 
+button{
+    background-image: linear-gradient(90deg, rgba(128, 0, 128, 0.507) , rgba(0, 0, 255, 0.473)  );
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+}
